@@ -2,7 +2,7 @@ from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import FileResponse
 from PIL import Image
 import io
-from app.pipeline import process_image
+from pipeline import process_image
 
 app = FastAPI()
 
